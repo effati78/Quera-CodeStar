@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Viga&display=swap");
+
+* {
+  box-sizing: border-box;
+  direction: rtl;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #11998e, #38ef7d);
+}
+
+.container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  width: 402px;
+  padding: 24px;
+  margin: 0 auto;
+  gap: 26px;
+  background-color: #fff;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  height: 40px;
+  border: 1px solid #aaaaaa;
+  border-radius: 6px;
+}
+
+.checkBox {
+  display: flex;
+  align-items: center;
+}
+
+.checkBox input[type="checkbox"] {
+  margin-left: 5px;
+  width: 20px;
+  height: 20px;
+}
+
+input[type="submit"] {
+  background-color: #208d8e;
+  padding: 10px;
+  height: 48px;
+  border-radius: 6px;
+  color: #fff;
+  margin-top: 5px;
+  cursor: pointer;
+  outline: 0 none;
+  border: 0 none;
+  font-weight: bold;
+}
+
+p {
+  color: red;
+  font-size: 13px;
+}

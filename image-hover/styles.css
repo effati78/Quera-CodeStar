@@ -1,0 +1,56 @@
+@font-face {
+  font-family: defaultFont;
+  src: url("./assets/fonts/font.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: defaultFont;
+  background: #6c9a8b;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+}
+
+figure {
+  position: relative;
+  cursor: pointer;
+}
+
+figure img {
+  width: 300px;
+  height: 400px;
+  border-radius: 16px;
+}
+
+figcaption:hover {
+  opacity: 1;
+}
+
+/* implement your code here... */
+figcaption {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 400px;
+  background: linear-gradient(to right, #360033, #0b8793);
+  color: #ffffff;
+  font-size: 40px;
+  border-radius: 16px;
+  transition: all 0.3s linear;
+}
